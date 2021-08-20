@@ -24,7 +24,6 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
 	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/swipebox.css" />
 	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animations.css" />
-	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
 
 	<?php wp_head(); ?>
