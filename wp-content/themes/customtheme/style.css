@@ -1009,7 +1009,7 @@ Template:	BLIX - Mobile HTML Template
 /*===============================================*/
 /* 1. RESET		 						 */
 /*===============================================*/
-@import "/assets/css/reset.css";
+@import "/wp-content/themes/customtheme//assets/css/reset.css";
 
 /*===============================================*/
 /* 2. GENERAL		 						 */
