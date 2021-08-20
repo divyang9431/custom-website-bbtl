@@ -1,15 +1,16 @@
+<style type="text/css">
+    .hide-home
+{
+	display:none !important;
+}
+</style>
 <?php
 
 /* Template Name: Home Template */
 
 get_header();
 ?>
-<style>
-.hide-home
-{
-	display:none !important;
-}
-</style>
+
 <div class="page-content">
         
         <div class="page-title page-title-large">

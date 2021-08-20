@@ -52,11 +52,11 @@
     
 		<div class="page-content hide-home">
         
-        <div class="page-title page-title-small">
+        <div class="page-title page-title-small hide-home">
             <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a> <php the_title() ?></h2>
             <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/5s.png"></a>
         </div>
-        <div class="card header-card shape-rounded" data-card-height="150">
+        <div class="card header-card shape-rounded hide-home" data-card-height="150">
             <div class="card-overlay bg-highlight opacity-95"></div>
             <div class="card-overlay dark-mode-tint"></div>
             <div class="card-bg preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/20s.jpg"></div>
