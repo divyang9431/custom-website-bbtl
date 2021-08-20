@@ -103,11 +103,11 @@
 				<div class="page-content">
 					<div class="navbarpages">
 						<div class="navbar_left">
-							<div class="logo_text"><a href="/">
+							<div class="logo_text">
 							<?php
 							the_custom_logo();
 							?>
-							</a></div>
+							</div>
 						</div>
 
 						<div class="navbar_right navbar_right_menu">

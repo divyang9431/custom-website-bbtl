@@ -2778,6 +2778,6 @@ padding:15px 0 0 0;
 }
 }
 
-html {
+html.pixel-ratio-1.watch-active-state {
   margin-top: 0 !important;
 }
