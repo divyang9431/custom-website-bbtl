@@ -4,7 +4,25 @@
 
 get_header();
 ?>
-
+<style>
+.hide-home
+{
+	display:none !important;
+}
+</style>
+<div class="page-content">
+        
+        <div class="page-title page-title-large">
+            <h2 data-username="<?php global $current_user; wp_get_current_user() ; echo $current_user->user_login; ?>" class="greeting-text"></h2>
+			<?php $user = wp_get_current_user(); if ( $user ) : ?>
+            <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>"></a><?php endif; ?>
+        </div>
+        <div class="card header-card shape-rounded" data-card-height="210">
+            <div class="card-overlay bg-highlight opacity-95"></div>
+            <div class="card-overlay dark-mode-tint"></div>
+            <div class="card-bg preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/20s.jpg"></div>
+        </div>
+        
  <!-- Homepage Slider-->
  <div class="single-slider-boxed text-center owl-no-dots owl-carousel">
             <div class="card rounded-l shadow-l" data-card-height="320">
