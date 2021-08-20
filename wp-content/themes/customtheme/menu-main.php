@@ -14,7 +14,7 @@
 
 <div class="menu-items">
     <h5 class="text-uppercase opacity-20 font-12 pl-3">Menu</h5>
-    <?php wp_nav_menu( array( 'theme_location' => 'menu-2', ) ); ?>
+    
     <a id="nav-welcome" href="index.html">
         <i data-feather="home" data-feather-line="1" data-feather-size="16" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-dark"></i>
         <span>Welcome</span>
