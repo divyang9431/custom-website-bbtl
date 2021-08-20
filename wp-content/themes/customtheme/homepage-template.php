@@ -3,6 +3,9 @@
 {
 	display:none !important;
 }
+.menu-header a{
+	padding: 20px;
+}
 </style>
 <?php
 
