@@ -43,7 +43,7 @@
         <a href="#" data-toggle-theme class="header-icon header-icon-2 show-on-theme-light"><i class="fas fa-moon"></i></a>
     </div>
     <div id="footer-bar" class="footer-bar-5">
-        <a href="index-components.html"><i data-feather="heart" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Features</span></a>
+        <a href="/?p=47"><i data-feather="heart" data-feather-line="1" data-feather-size="21" data-feather-color="red2-dark" data-feather-bg="red2-fade-light"></i><span>Features</span></a>
         <a href="index-media.html"><i data-feather="image" data-feather-line="1" data-feather-size="21" data-feather-color="green1-dark" data-feather-bg="green1-fade-light"></i><span>Media</span></a>
         <a href="/" class="active-nav"><i data-feather="home" data-feather-line="1" data-feather-size="21" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-light"></i><span>Home</span></a>
         <a href="index-pages.html"><i data-feather="file" data-feather-line="1" data-feather-size="21" data-feather-color="brown1-dark" data-feather-bg="brown1-fade-light"></i><span>Pages</span></a>
@@ -53,7 +53,7 @@
 		<div class="page-content hide-home">
         
         <div class="page-title page-title-small">
-            <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a><php the_title() ?></h2>
+            <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a> <php the_title() ?></h2>
             <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/5s.png"></a>
         </div>
         <div class="card header-card shape-rounded" data-card-height="150">
