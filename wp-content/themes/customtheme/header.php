@@ -50,18 +50,19 @@
         <a href="index-settings.html"><i data-feather="settings" data-feather-line="1" data-feather-size="21" data-feather-color="gray2-dark" data-feather-bg="gray2-fade-light"></i><span>Settings</span></a>
     </div>
     
-		<div class="page-content">
+
+	<div class="page-content">
         
-        <div class="page-title page-title-small hidehome">
-            <h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a> <php the_title() ?></h2>
-            <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/5s.png"></a>
+        <div class="page-title page-title-large">
+			<h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a> <php the_title() ?></h2>
+			<?php $user = wp_get_current_user(); if ( $user ) : ?>
+            <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>"></a><?php endif; ?>
         </div>
-        <div class="card header-card shape-rounded hidehome" data-card-height="150">
+        <div class="card header-card shape-rounded" data-card-height="210">
             <div class="card-overlay bg-highlight opacity-95"></div>
             <div class="card-overlay dark-mode-tint"></div>
             <div class="card-bg preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/20s.jpg"></div>
-        </div>
-        
+        </div>        
 
 
 <!-- Main Menu -->
