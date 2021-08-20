@@ -30,5 +30,14 @@
 
 <?php wp_footer(); ?>
 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-1.10.1.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate.min.js" ></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/framework7.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.swipebox.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.fitvids.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/email.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/audio.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/my-app.js"></script>
+
 </body>
 </html>
