@@ -103,16 +103,11 @@
 				<div class="page-content">
 					<div class="navbarpages">
 						<div class="navbar_left">
-							<div class="logo_text">
+							<div class="logo_text"><a href="/">
 							<?php
 							the_custom_logo();
-							if ( is_front_page() && is_home() ) :
 							?>
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-							<?php
-							else :
-							?>
-							/div>
+							</a></div>
 						</div>
 
 						<div class="navbar_right navbar_right_menu">
