@@ -55,7 +55,8 @@
         
         <div class="page-title page-title-large">
             <h2 data-username="<?php global $current_user; wp_get_current_user() ; echo $current_user->user_login; ?>" class="greeting-text"></h2>
-            <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php $user = wp_get_current_user(); if ( $user ) : ?> <img src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" /> <?php endif; ?>"></a>
+			<?php $user = wp_get_current_user(); if ( $user ) : ?>
+            <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>"></a><?php endif; ?>
         </div>
         <div class="card header-card shape-rounded" data-card-height="210">
             <div class="card-overlay bg-highlight opacity-95"></div>
