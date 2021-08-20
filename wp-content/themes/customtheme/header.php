@@ -21,7 +21,6 @@
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-icon.png" />
 	<link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-startup-image-640x920.png">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/framework7.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/swipebox.css" />
 	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animations.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
