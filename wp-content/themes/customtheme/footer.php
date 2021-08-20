@@ -66,7 +66,7 @@
 </div>
 
 <div class="divider divider-margins mt-n1 mb-3"></div>
-<p class="text-center font-10 mb-0">Copyright <span class="copyright-year"></span> © <?php echo date('Y'); ?>. All rights reserved.</p>
+<p class="text-center font-10 mb-0">Copyright © <span class="copyright-year"></span>. All rights reserved.</p>
 
 
     </div>    
@@ -192,7 +192,7 @@
     <a href="#" class="icon icon-xs mr-1 rounded-s bg-instagram"><i class="fab fa-instagram"></i></a>
     <a href="#" class="icon icon-xs mr-1 rounded-s bg-linkedin"><i class="fab fa-linkedin-in"></i></a>
     <a href="#" class="icon icon-xs rounded-s bg-whatsapp"><i class="fab fa-whatsapp"></i></a>
-    <p class="mb-0 pt-3 font-10 opacity-30">Copyright <span class="copyright-year"></span> © <?php echo date('Y'); ?>. All rights reserved</p>
+    <p class="mb-0 pt-3 font-10 opacity-30">Copyright © <span class="copyright-year"></span>. All rights reserved</p>
 </div>
  
     </div>
