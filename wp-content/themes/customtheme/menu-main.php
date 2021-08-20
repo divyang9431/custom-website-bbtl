@@ -7,13 +7,14 @@
 </div>
 
 <div class="menu-logo text-center">
-    <a href="#"><img class="rounded-circle bg-highlight" width="80" src="images/avatars/5s.png"></a>
-    <h1 class="pt-3 font-800 font-28 text-uppercase">Azures</h1>
+    <a href="#"><?php $user = wp_get_current_user(); if ( $user ) : ?><img class="rounded-circle bg-highlight" width="80" src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>"></a><?php endif; ?>
+    <h1 class="pt-3 font-800 font-28 text-uppercase"><?php global $current_user; wp_get_current_user() ; echo $current_user->user_login; ?></h1>
     <p class="font-11 mt-n2">Put a little <span class="color-highlight">color</span> in your life.</p>
 </div>
 
 <div class="menu-items">
     <h5 class="text-uppercase opacity-20 font-12 pl-3">Menu</h5>
+    <?php wp_nav_menu( array( 'theme_location' => 'menu-2', ) ); ?>
     <a id="nav-welcome" href="index.html">
         <i data-feather="home" data-feather-line="1" data-feather-size="16" data-feather-color="blue2-dark" data-feather-bg="blue2-fade-dark"></i>
         <span>Welcome</span>
@@ -69,5 +70,5 @@
     <a href="#" class="icon icon-xs mr-1 rounded-s bg-instagram"><i class="fab fa-instagram"></i></a>
     <a href="#" class="icon icon-xs mr-1 rounded-s bg-linkedin"><i class="fab fa-linkedin-in"></i></a>
     <a href="#" class="icon icon-xs rounded-s bg-whatsapp"><i class="fab fa-whatsapp"></i></a>
-    <p class="mb-0 pt-3 font-10 opacity-30">Copyright <span class="copyright-year"></span> Enabled. All rights reserved</p>
+    <p class="mb-0 pt-3 font-10 opacity-30">Copyright <span class="copyright-year"></span> © <?php echo date('Y'); ?>. All rights reserved</p>
 </div>
