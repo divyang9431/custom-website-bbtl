@@ -66,7 +66,7 @@
 </div>
 
 <div class="divider divider-margins mt-n1 mb-3"></div>
-<p class="text-center font-10 mb-0">Copyright <span class="copyright-year"></span> - Enabled. All rights reserved.</p>
+<p class="text-center font-10 mb-0">Copyright <span class="copyright-year"></span> © <?php echo date('Y'); ?>. All rights reserved.</p>
 
 
     </div>    
@@ -119,7 +119,7 @@
          data-menu-width="260"
          data-menu-active="nav-welcome"
          data-menu-effect="menu-over"> 
-		 
+
 		 <div class="menu-header">
     <a href="#" data-toggle-theme class="border-right-0"><i class="fa font-12 color-yellow1-dark fa-lightbulb"></i></a>
     <a href="#" data-menu="menu-highlights" class="border-right-0"><i class="fa font-12 color-green1-dark fa-brush"></i></a>
