@@ -1277,7 +1277,7 @@ $(document).ready(function(){
                     });
                 }
 			}
-			loadJS('scripts/charts.js', call_charts_to_page, document.body);
+			loadJS('/wp-content/themes/customtheme/assets/scripts/charts.js', call_charts_to_page, document.body);
 		}        
         
         //Cookie Menu
@@ -1540,6 +1540,6 @@ $(document).ready(function(){
             location.appendChild(scriptTag);
         };
         function loadPWA(){}
-        loadJS('scripts/pwa.js', loadPWA, document.body);
+        loadJS('/wp-content/themes/customtheme/assets/scripts/pwa.js', loadPWA, document.body);
     }    
 }); 
