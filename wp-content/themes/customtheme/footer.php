@@ -78,9 +78,9 @@
 </div>    
 
 
-<script type="text/javascript" src="scripts/jquery.js"></script>
-<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
-<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/jquery.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/scripts/custom.js"></script>
 
 
 	<footer id="colophon" class="site-footer">
