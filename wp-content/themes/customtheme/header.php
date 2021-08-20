@@ -44,13 +44,12 @@
 		<?php
 			wp_nav_menu(
 				array(
-					'theme_location' => 'menu-2',
-					'menu_id'        => 'profile-menu',
+					'theme_location' => 'menu-1',
 				)
 			);
 			?>
 
-		<ul>
+		<!-- <ul>
 		<li><a href="index.html" class="close-panel" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/home.png" alt="" title="" /><span>Home</span></a></li>
 		<li><a href="about.html" class="close-panel" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/mobile.png" alt="" title="" /><span>About</span></a></li>
 		<li><a href="features.html" class="close-panel" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/features.png" alt="" title="" /><span>Features</span></a></li>
@@ -74,7 +73,8 @@
 		
 		<li><a href="tel:012345678" class="close-panel external" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/phone.png" alt="" title="" /><span>Call now!</span></a></li>
 		<li><a href="contact.html" class="close-panel" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/contact.png" alt="" title="" /><span>Contact</span></a></li>
-		</ul>
+		</ul> -->
+		
 		</nav>
 				 </div>
 	</div>
@@ -98,17 +98,16 @@
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-2',
-					'menu_id'        => 'profile-menu',
 				)
 			);
 			?>
-				<ul>
+				<!-- <ul>
 				  <li><a href="features.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/settings.png" alt="" title="" /><span>Account Settings</span></a></li>
 				  <li><a href="features.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/briefcase.png" alt="" title="" /><span>My Account</span></a></li>
 				  <li><a href="features.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/message.png" alt="" title="" /><span>Messages</span><strong>12</strong></a></li>
 				  <li><a href="features.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/love.png" alt="" title="" /><span>Favorites</span><strong>5</strong></a></li>
 				  <li><a href="index.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/lock.png" alt="" title="" /><span>Logout</span></a></li>
-				</ul>
+				</ul> -->
 			  </nav>
   </div>
 </div>

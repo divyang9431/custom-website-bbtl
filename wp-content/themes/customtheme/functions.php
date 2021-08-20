@@ -51,7 +51,7 @@ if ( ! function_exists( 'customtheme_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary Menu', 'customtheme' ),
-				'menu-2' => esc_html__( 'Profile Menu', 'customtheme-profile' ),
+				'menu-2' => esc_html__( 'Profile Menu', 'customtheme' ),
 			)
 		);
 

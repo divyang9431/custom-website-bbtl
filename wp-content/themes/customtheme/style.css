@@ -555,7 +555,7 @@ float:left;
 display:block;
 float:left;
 text-align:left;
-padding:5px 0 0 20px;
+/* padding:5px 0 0 20px; */
 }
 .user-nav ul li strong{
 display:block;
