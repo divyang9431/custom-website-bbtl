@@ -5,7 +5,7 @@
 "comment": "---if versions are not the same it will cause an update loop",
 "lang" : "en",
 "name" : "Custom Theme",
-"scope" : "/",
+"scope" : "/wp-content/themes/customtheme/",
 "display" : "fullscreen",
 "start_url" : "/",
 "short_name" : "Custom Theme",
