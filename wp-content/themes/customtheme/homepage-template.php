@@ -1,5 +1,5 @@
 <style type="text/css">
-    .hide-home
+    .hidehome
 {
 	display:none !important;
 }
