@@ -104,7 +104,23 @@
 				<div class="page-content">
 					<div class="navbarpages">
 						<div class="navbar_left">
-							<div class="logo_text"><a href="/">BLIX</a></div>
+							<div class="logo_text"><a href="/">
+							<?php
+							the_custom_logo();
+							if ( is_front_page() && is_home() ) :
+							?>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+							<?php
+							else :
+							?>
+							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+							<?php
+							endif;
+							$customtheme_description = get_bloginfo( 'description', 'display' );
+							if ( $customtheme_description || is_customize_preview() ) :
+							?>
+							<p class="site-description"><?php echo $customtheme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+							<?php endif; ?></a></div>
 						</div>
 
 						<div class="navbar_right navbar_right_menu">
@@ -113,9 +129,9 @@
 						<div class="navbar_right">
 							<a href="#" data-panel="right" class="open-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/user.png" alt="" title="" /></a>
 						</div>
-						<div class="navbar_right">
+						<!-- <div class="navbar_right">
 							<a href="cart.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/cart.png" alt="" title="" /><span>3</span></a>
-						</div>
+						</div> -->
 					</div>
 				
 			
@@ -130,28 +146,13 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$customtheme_description = get_bloginfo( 'description', 'display' );
-			if ( $customtheme_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $customtheme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
+			
 		</div> -->
 		<!-- .site-branding -->
 
 		<!-- <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'customtheme' ); ?></button>
-			<?php
+			 <?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
