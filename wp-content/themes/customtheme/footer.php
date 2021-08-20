@@ -22,6 +22,7 @@
          class="menu menu-box-bottom menu-box-detached rounded-m" 
          data-menu-height="420" 
          data-menu-effect="menu-over">
+
 		 <h1 class="text-center font-700 font-26 mt-3 pt-2">Share Azures</h1>
 <p class="boxed-text-xl under-heading">
     Share our page with the world, increase <br>
@@ -75,6 +76,7 @@
          class="menu menu-box-bottom menu-box-detached rounded-m" 
          data-menu-height="510" 
          data-menu-effect="menu-over"> 
+
 		 <div class="card header-card shape-rounded h-40">
     <div class="card-overlay bg-highlight opacity-95"></div>
     <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
@@ -117,6 +119,7 @@
          data-menu-width="260"
          data-menu-active="nav-welcome"
          data-menu-effect="menu-over"> 
+		 
 		 <div class="menu-header">
     <a href="#" data-toggle-theme class="border-right-0"><i class="fa font-12 color-yellow1-dark fa-lightbulb"></i></a>
     <a href="#" data-menu="menu-highlights" class="border-right-0"><i class="fa font-12 color-green1-dark fa-brush"></i></a>
