@@ -16,6 +16,15 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-icon.png" />
+	<link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-startup-image-640x920.png">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/framework7.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/style.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/swipebox.css" />
+	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animations.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
