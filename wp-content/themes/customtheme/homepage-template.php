@@ -5,32 +5,6 @@
 get_header();
 ?>
 
-<div class="views">
-
-<div class="view view-main">
-
-
-
-  <div class="pages">
-
-	<div data-page="index" class="page homepage">
-	  <div class="page-content">
-	  
-		  <div class="navbarpages">
-			  <div class="navbar_left">
-				  <div class="logo_text"><a href="/">BLIX</a></div>
-			  </div>
-			  <div class="navbar_right navbar_right_menu">
-			  <a href="#" data-panel="left" class="open-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/menu.png" alt="" title="" /></a>
-			  </div>			
-			  <div class="navbar_right">
-			  <a href="#" data-panel="right" class="open-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/user.png" alt="" title="" /></a>
-			  </div>
-			  <div class="navbar_right">
-			  <a href="cart.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/cart.png" alt="" title="" /><span>3</span></a>
-			  </div>
-		  </div>
-
                   <!-- Slider -->
 				  <div class="swiper-container slidertoolbar swiper-init" data-effect="slide" data-parallax="true" data-pagination=".swiper-pagination"  data-next-button=".swiper-button-next" data-prev-button=".swiper-button-prev">
                     <div class="swiper-wrapper">
