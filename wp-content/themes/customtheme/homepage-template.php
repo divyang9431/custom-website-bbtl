@@ -18,16 +18,16 @@ get_header();
 	  
 		  <div class="navbarpages">
 			  <div class="navbar_left">
-				  <div class="logo_text"><a href="index.html">BLIX</a></div>
+				  <div class="logo_text"><a href="/">BLIX</a></div>
 			  </div>
 			  <div class="navbar_right navbar_right_menu">
-			  <a href="#" data-panel="left" class="open-panel"><img src="images/icons/white/menu.png" alt="" title="" /></a>
+			  <a href="#" data-panel="left" class="open-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/menu.png" alt="" title="" /></a>
 			  </div>			
 			  <div class="navbar_right">
-			  <a href="#" data-panel="right" class="open-panel"><img src="images/icons/white/user.png" alt="" title="" /></a>
+			  <a href="#" data-panel="right" class="open-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/user.png" alt="" title="" /></a>
 			  </div>
 			  <div class="navbar_right">
-			  <a href="cart.html" data-view=".view-main"><img src="images/icons/white/cart.png" alt="" title="" /><span>3</span></a>
+			  <a href="cart.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/cart.png" alt="" title="" /><span>3</span></a>
 			  </div>
 		  </div>
 
