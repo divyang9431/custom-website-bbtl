@@ -103,7 +103,7 @@
 				<div class="page-content">
 					<div class="navbarpages">
 						<div class="navbar_left">
-							<div class="logo_text"><a href="/">
+							<div class="logo_text">
 							<?php
 							the_custom_logo();
 							if ( is_front_page() && is_home() ) :
@@ -112,14 +112,7 @@
 							<?php
 							else :
 							?>
-							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-							<?php
-							endif;
-							$customtheme_description = get_bloginfo( 'description', 'display' );
-							if ( $customtheme_description || is_customize_preview() ) :
-							?>
-							<p class="site-description"><?php echo $customtheme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-							<?php endif; ?></a></div>
+							/div>
 						</div>
 
 						<div class="navbar_right navbar_right_menu">
