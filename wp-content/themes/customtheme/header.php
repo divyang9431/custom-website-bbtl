@@ -92,7 +92,8 @@
 			  </div>  
 			  <div class="user_avatar">
 			  <?php $user = wp_get_current_user(); if ( $user ) : ?> <img src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" /> <?php endif; ?>	  
-			  <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar.jpg" alt="" title="" /></div>        -->
+			  <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar.jpg" alt="" title="" />-->
+			</div>        
 			</div>
 			
 			  <nav class="user-nav">
