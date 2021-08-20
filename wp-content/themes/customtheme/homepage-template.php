@@ -15,7 +15,7 @@ get_header();
                     </p>
                 </div>
                 <div class="card-overlay bg-gradient-fade"></div>
-                <div class="card-bg owl-lazy" data-src="images/pictures/17m.jpg"></div>
+                <div class="card-bg owl-lazy" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/17m.jpg"></div>
             </div>
             <div class="card rounded-l shadow-l" data-card-height="320">
                 <div class="card-bottom">
@@ -25,7 +25,7 @@ get_header();
                     </p>
                 </div>
                 <div class="card-overlay bg-gradient-fade"></div>
-                <div class="card-bg owl-lazy" data-src="images/pictures/8m.jpg"></div>
+                <div class="card-bg owl-lazy" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/8m.jpg"></div>
             </div>
             <div class="card rounded-l shadow-l" data-card-height="320">
                 <div class="card-bottom">
@@ -35,7 +35,7 @@ get_header();
                     </p>
                 </div>
                 <div class="card-overlay bg-gradient-fade"></div>
-                <div class="card-bg owl-lazy" data-src="images/pictures/14m.jpg"></div>
+                <div class="card-bg owl-lazy" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/14m.jpg"></div>
             </div>
         </div>
 
@@ -90,7 +90,7 @@ get_header();
         </div>
             
 
-        <div class="card mt-4 preload-img" data-src="images/pictures/20s.jpg">
+        <div class="card mt-4 preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/20s.jpg">
             <div class="card-body">
                 <h4 class="color-white">Built For You</h4>
                 <p class="color-white">
@@ -192,7 +192,7 @@ get_header();
             </div>
         </div>
         
-        <div class="card card-style preload-img" data-src="images/pictures/20s.jpg" data-card-height="350">
+        <div class="card card-style preload-img" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/pictures/20s.jpg" data-card-height="350">
             <div class="card-center text-center">
                 <p class="line-height-xl font-19 font-300 color-white pl-3 pr-3 mb-2">
                     This is a great product! Many components that we can use, and I really appreciate the support from Enabled. Very responsive and provides great solutions.
@@ -214,19 +214,19 @@ get_header();
             </div>
             <div class="user-list-slider owl-carousel mt-3 mb-n1">
                 <div class="icon-user">
-                    <img data-src="images/avatars/1s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-blue2">
+                    <img data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/1s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-blue2">
                     <p>Jane</p>
                 </div>     
                 <div class="icon-user">
-                    <img data-src="images/avatars/2s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-red2">
+                    <img data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/2s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-red2">
                     <p>Craig</p>
                 </div>  
                 <div class="icon-user">
-                    <img data-src="images/avatars/1s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-green1">
+                    <img data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/1s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-green1">
                     <p>Jane</p>
                 </div>     
                 <div class="icon-user">
-                    <img data-src="images/avatars/2s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-brown1">
+                    <img data-src="<?php echo get_template_directory_uri(); ?>/assets/images/avatars/2s.png" width="55" height="55" class="rounded-xl owl-lazy shadow-l bg-gradient-brown1">
                     <p>Craig</p>
                 </div>  
             </div>
