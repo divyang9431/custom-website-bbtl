@@ -1,0 +1,8 @@
+# ignore folder
+.quarantine/
+.tmb
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
