@@ -16,7 +16,7 @@
         <div class="footer">
 
 		<div class="card card-style mb-0">
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="header-title"><?php bloginfo( 'name' ); ?>" class="footer-title pt-4"></a>
+    <a href="#" class="footer-title pt-4"><?php bloginfo( 'name' ); ?></a>
     <p class="text-center font-12 mt-n1 mb-3 opacity-70">
         Put a little <span class="color-highlight">color</span> in  your life
     </p>
