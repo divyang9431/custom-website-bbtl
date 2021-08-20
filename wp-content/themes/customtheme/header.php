@@ -53,8 +53,8 @@
 
 	<div class="page-content">
         
-        <div class="page-title page-title-large">
-			<h2><a href="#" data-back-button><i class="fa fa-arrow-left"></i></a> <php the_title() ?></h2>
+    <div class="page-title page-title-large">
+            <h2 data-username="<?php global $current_user; wp_get_current_user() ; echo $current_user->user_login; ?>" class="greeting-text"></h2>
 			<?php $user = wp_get_current_user(); if ( $user ) : ?>
             <a href="#" data-menu="menu-main" class="bg-fade-gray1-dark shadow-xl preload-img" data-src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>"></a><?php endif; ?>
         </div>
