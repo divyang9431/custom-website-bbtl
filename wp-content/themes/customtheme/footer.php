@@ -35,7 +35,7 @@
     <div id="menu-main"
          class="menu menu-box-right menu-box-detached rounded-m"
          data-menu-width="260"
-         data-menu-load="menu-main.html"
+         data-menu-load="<?php echo get_template_directory_uri(); ?>/menu-main.php"
          data-menu-active="nav-welcome"
          data-menu-effect="menu-over">  
     </div>
