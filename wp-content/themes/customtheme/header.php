@@ -159,4 +159,4 @@
 		</nav>
 		 -->
 		<!-- #site-navigation -->
-	</header>#masthead
+	<!-- </header>#masthead -->
