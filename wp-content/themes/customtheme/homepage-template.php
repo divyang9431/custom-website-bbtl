@@ -10,7 +10,7 @@ get_header();
 				  <div class="swiper-container slidertoolbar swiper-init" data-effect="slide" data-parallax="true" data-pagination=".swiper-pagination"  data-next-button=".swiper-button-next" data-prev-button=".swiper-button-prev">
                     <div class="swiper-wrapper">
                     
-                      <div class="swiper-slide" style="background-image:url(images/slide1.jpg);">
+                      <div class="swiper-slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/slide1.jpg);">
 		     <div class="slider_trans">
 			 <div class="slider-caption">
 			          <span class="subtitle" data-swiper-parallax="-60%">CREATIVE SOLUTION</span>
@@ -20,7 +20,7 @@ get_header();
 			 </div>
 		      </div> 
                        </div>
-                      <div class="swiper-slide" style="background-image:url(images/slide2.jpg);">
+                      <div class="swiper-slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/slide2.jpg);">
 			<div class="slider_trans">		  
 				<div class="slider-caption">
 				<span class="subtitle" data-swiper-parallax="-60%">MULTIPURPOSE DESIGNS</span>
@@ -50,20 +50,20 @@ get_header();
 			<div class="swiper-pagination-toolbar"></div>
 			<div class="swiper-wrapper">
 			  <div class="swiper-slide toolbar-icon">
-				<a href="about.html" data-view=".view-main"><img src="images/icons/blue/users.png" alt="" title="" /><span>ABOUT</span></a>
-			        <a href="features.html" data-view=".view-main"><img src="images/icons/blue/features.png" alt="" title="" /><span>FEATURES</span></a>
-				<a href="#" data-popup=".popup-login" class="open-popup"><img src="images/icons/blue/lock.png" alt="" title="" /><span>LOGIN</span></a>
-				<a href="blog.html" data-view=".view-main"><img src="images/icons/blue/blog.png" alt="" title="" /><span>JOURNAL</span></a>
-				<a href="photos.html" data-view=".view-main"><img src="images/icons/blue/photos.png" alt="" title="" /><span>PHOTOS</span></a>
-				<a href="contact.html" data-view=".view-main"><img src="images/icons/blue/contact.png" alt="" title="" /><span>CONTACT</span></a>
+				<a href="about.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/users.png" alt="" title="" /><span>ABOUT</span></a>
+			        <a href="features.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/features.png" alt="" title="" /><span>FEATURES</span></a>
+				<a href="#" data-popup=".popup-login" class="open-popup"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/lock.png" alt="" title="" /><span>LOGIN</span></a>
+				<a href="blog.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/blog.png" alt="" title="" /><span>JOURNAL</span></a>
+				<a href="photos.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/photos.png" alt="" title="" /><span>PHOTOS</span></a>
+				<a href="contact.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/contact.png" alt="" title="" /><span>CONTACT</span></a>
 			  </div> 
 			  <div class="swiper-slide toolbar-icon">
-				  <a href="shop.html" data-view=".view-main"><img src="images/icons/blue/shop.png" alt="" title="" /><span>SHOP</span></a>
-				  <a href="music.html" data-view=".view-main"><img src="images/icons/blue/music.png" alt="" title="" /><span>MUSIC</span></a>
-				  <a href="form.html" data-view=".view-main"><img src="images/icons/blue/form.png" alt="" title="" /><span>CUSTOM FORM</span></a>
-				  <a href="#" data-popup=".popup-social" class="open-popup"><img src="images/icons/blue/twitter.png" alt="" title="" /><span>SOCIAL</span></a>
-				  <a href="videos.html" data-view=".view-main"><img src="images/icons/blue/video.png" alt="" title="" /><span>VIDEOS</span></a>
-				  <a href="tel:12345678" class="external"><img src="images/icons/blue/phone.png" alt="" title="" /><span>CALL NOW!</span></a>
+				  <a href="shop.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/shop.png" alt="" title="" /><span>SHOP</span></a>
+				  <a href="music.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/music.png" alt="" title="" /><span>MUSIC</span></a>
+				  <a href="form.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/form.png" alt="" title="" /><span>CUSTOM FORM</span></a>
+				  <a href="#" data-popup=".popup-social" class="open-popup"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/twitter.png" alt="" title="" /><span>SOCIAL</span></a>
+				  <a href="videos.html" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/video.png" alt="" title="" /><span>VIDEOS</span></a>
+				  <a href="tel:12345678" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/blue/phone.png" alt="" title="" /><span>CALL NOW!</span></a>
 			   </div>
 
 			</div>
@@ -97,7 +97,7 @@ get_header();
                 </div>
             </div>
             <div class="close_popup_button">
-                <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+                <a href="#" class="close-popup"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/menu_close.png" alt="" title="" /></a>
             </div>
         </div>
     </div>
@@ -120,7 +120,7 @@ get_header();
 		</div>		
             </div>
             <div class="close_popup_button">
-                <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+                <a href="#" class="close-popup"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/menu_close.png" alt="" title="" /></a>
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@ get_header();
                 </div>
             </div>
             <div class="close_popup_button">
-                <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
+                <a href="#" class="close-popup"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/menu_close.png" alt="" title="" /></a>
             </div>
         </div>
     </div>
@@ -150,14 +150,14 @@ get_header();
       <h4>Social Share</h4>
       <p>Share icons solution that allows you share and increase your social popularity.</p>
       <ul class="social_share">
-      <li><a href="http://twitter.com/" class="external"><img src="images/icons/black/twitter.png" alt="" title="" /><span>TWITTER</span></a></li>
-      <li><a href="http://www.facebook.com/" class="external"><img src="images/icons/black/facebook.png" alt="" title="" /><span>FACEBOOK</span></a></li>
-      <li><a href="http://plus.google.com" class="external"><img src="images/icons/black/gplus.png" alt="" title="" /><span>GOOGLE</span></a></li>
-      <li><a href="http://www.dribbble.com/" class="external"><img src="images/icons/black/dribbble.png" alt="" title="" /><span>DRIBBBLE</span></a></li>
-      <li><a href="http://www.linkedin.com/" class="external"><img src="images/icons/black/linkedin.png" alt="" title="" /><span>LINKEDIN</span></a></li>
-      <li><a href="http://www.pinterest.com/" class="external"><img src="images/icons/black/pinterest.png" alt="" title="" /><span>PINTEREST</span></a></li>
+      <li><a href="http://twitter.com/" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/twitter.png" alt="" title="" /><span>TWITTER</span></a></li>
+      <li><a href="http://www.facebook.com/" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/facebook.png" alt="" title="" /><span>FACEBOOK</span></a></li>
+      <li><a href="http://plus.google.com" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/gplus.png" alt="" title="" /><span>GOOGLE</span></a></li>
+      <li><a href="http://www.dribbble.com/" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/dribbble.png" alt="" title="" /><span>DRIBBBLE</span></a></li>
+      <li><a href="http://www.linkedin.com/" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/linkedin.png" alt="" title="" /><span>LINKEDIN</span></a></li>
+      <li><a href="http://www.pinterest.com/" class="external"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/pinterest.png" alt="" title="" /><span>PINTEREST</span></a></li>
       </ul>
-      <div class="close_popup_button"><a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
+      <div class="close_popup_button"><a href="#" class="close-popup"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/black/menu_close.png" alt="" title="" /></a></div>
     </div>
     </div>
    
