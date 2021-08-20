@@ -1,18 +1,10 @@
-<style type="text/css">
-</style>
 <?php
 
 /* Template Name: Home Template */
 
 get_header();
 ?>
-
-
-            <!-- <h2 data-username="<?php global $current_user; wp_get_current_user() ; echo $current_user->user_login; ?>" class="greeting-text"></h2>
-			<?php $user = wp_get_current_user(); if ( $user ) : ?> -->
-            
-       
-        
+     
  <!-- Homepage Slider-->
  <div class="single-slider-boxed text-center owl-no-dots owl-carousel">
             <div class="card rounded-l shadow-l" data-card-height="320">
