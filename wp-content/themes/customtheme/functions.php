@@ -50,8 +50,8 @@ if ( ! function_exists( 'customtheme_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'menu-1' => esc_html__( 'Primary', 'customtheme' ),
-				'menu-2' => esc_html__( 'Profile', 'customtheme-profile' ),
+				'menu-1' => esc_html__( 'Primary Menu', 'customtheme' ),
+				'menu-2' => esc_html__( 'Profile Menu', 'customtheme-profile' ),
 			)
 		);
 

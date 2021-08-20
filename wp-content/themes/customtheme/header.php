@@ -41,6 +41,15 @@
 	<div data-page="panel-leftmenu" class="page pagepanel">	
 				 <div class="page-content">
 		<nav class="main_nav_underline">
+		<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-2',
+					'menu_id'        => 'profile-menu',
+				)
+			);
+			?>
+
 		<ul>
 		<li><a href="index.html" class="close-panel" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/home.png" alt="" title="" /><span>Home</span></a></li>
 		<li><a href="about.html" class="close-panel" data-view=".view-main"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/mobile.png" alt="" title="" /><span>About</span></a></li>
@@ -85,6 +94,14 @@
 			</div>
 			
 			  <nav class="user-nav">
+			  <?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-2',
+					'menu_id'        => 'profile-menu',
+				)
+			);
+			?>
 				<ul>
 				  <li><a href="features.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/settings.png" alt="" title="" /><span>Account Settings</span></a></li>
 				  <li><a href="features.html" class="close-panel"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/white/briefcase.png" alt="" title="" /><span>My Account</span></a></li>
@@ -147,6 +164,7 @@
 				)
 			);
 			?>
+		
 		</nav>
 		 -->
 		<!-- #site-navigation -->
