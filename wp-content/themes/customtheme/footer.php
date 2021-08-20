@@ -120,7 +120,7 @@
          data-menu-height="350" 
         data-menu-effect="menu-parallax">
         <div class="boxed-text-l mt-4">
-            <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+            <img class="rounded-l mb-3" src="<?php echo get_template_directory_uri(); ?>/assets/app/icons/icon-128x128.png" alt="img" width="90">
             <h4 class="mt-3">Azures on your Home Screen</h4>
             <p>
                 Install Azures on your home screen, and access it just like a regular app. It really is that simple!
@@ -137,7 +137,7 @@
          data-menu-height="320" 
         data-menu-effect="menu-parallax">
         <div class="boxed-text-xl mt-4">
-            <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+            <img class="rounded-l mb-3" src="<?php echo get_template_directory_uri(); ?>/assets/app/icons/icon-128x128.png" alt="img" width="90">
             <h4 class="mt-3">Azures on your Home Screen</h4>
             <p class="mb-0 pb-3">
                 Install Azures on your home screen, and access it just like a regular app.  Open your Safari menu and tap "Add to Home Screen".
