@@ -7,7 +7,7 @@
 </div>
 
 <div class="menu-logo text-center">
-    <a href="#"><?php $user = wp_get_current_user(); if ( $user ) : ?><img class="rounded-circle bg-highlight" width="80" src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>"><?php endif; ?></a>
+    <a href="#"><?php $user = wp_get_current_user(); if ( $user ) : ?> <img class="rounded-circle bg-highlight" width="80" src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" /> <?php endif; ?></a>
     <h1 class="pt-3 font-800 font-28 text-uppercase"><?php global $current_user; wp_get_current_user() ; echo $current_user->user_login; ?></h1>
     <p class="font-11 mt-n2">Put a little <span class="color-highlight">color</span> in your life.</p>
 </div>
