@@ -30,7 +30,7 @@ get_header();
 				</div>	
 			</div>	
                       </div>
-                      <div class="swiper-slide" style="background-image:url(images/slide3.jpg);">
+                      <div class="swiper-slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/slide3.jpg);">
 			<div class="slider_trans">		  
 				<div class="slider-caption">
 				<span class="subtitle" data-swiper-parallax="-60%">WEB AND NATIVE</span>
