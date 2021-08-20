@@ -1009,7 +1009,7 @@ Template:	BLIX - Mobile HTML Template
 /*===============================================*/
 /* 1. RESET		 						 */
 /*===============================================*/
-@import "css/reset.css";
+@import "/assets/css/reset.css";
 
 /*===============================================*/
 /* 2. GENERAL		 						 */
@@ -1441,7 +1441,7 @@ left:0px;
 width:100%;
 height:132px;
 z-index:888;
-background:url(images/trans_black_gradient.png) repeat-x;
+background:url(/assets/images/trans_black_gradient.png) repeat-x;
 }
 .user_details p{
 padding:70px 0 0 10px;
@@ -1546,7 +1546,7 @@ text-align:left;
 border-bottom:1px #556afb solid;
 }
 .main_nav_underline ul li.subnav{
-background:url(images/subnav_white.png) no-repeat right top;
+background:url(/assets/images/subnav_white.png) no-repeat right top;
 }
 .main_nav_underline ul li img{
 display:inline-block;
@@ -1619,7 +1619,7 @@ letter-spacing:1px;
 text-transform:uppercase;
 }
 .main_nav_icons_inline_2 ul li.subnav{
-background:url(images/subnav_white.png) no-repeat right top;
+background:url(/assets/images/subnav_white.png) no-repeat right top;
 }
 
 /* NAVIGATION STYLE 2 ICONS ON ONE ROW WITH BORDER */
